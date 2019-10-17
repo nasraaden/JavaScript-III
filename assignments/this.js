@@ -4,7 +4,7 @@
 * 1. Global binding: in the global scope, the this keyword's default value is the window object
 * 2. Implicit binding: the this keyword will be pointing to the object to the left of the dot
 * 3. Explicit binding: using .call/.apply/.bind to explicitly define what the this keyword is
-* 4. New binding: 
+* 4. New binding: this points to the new object when a constructor function is invoked using the new keyword
 *
 * write out a code example of each explanation above
 */
